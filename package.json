@@ -1,12 +1,14 @@
 {
-  "name": "noir-serenity",
+  "name": "massage-rawalpindi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node --no-warnings scripts/check-seo.ts",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:seo": "node --no-warnings scripts/check-seo.ts"
   },
   "dependencies": {
     "next": "16.4.6",
