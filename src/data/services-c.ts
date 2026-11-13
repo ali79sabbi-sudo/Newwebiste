@@ -87,7 +87,7 @@ export const SERVICES_C: Service[] = [
       { q: "How often should athletes get sports massage?", a: "During heavy training, every 1–2 weeks. Otherwise every 3–4 weeks for maintenance." },
       { q: "Can I focus on just my legs?", a: "Absolutely. Tell us your focus areas, such as legs, hips, shoulders or back, and we'll build the session around them." },
       { q: "Do you include stretching?", a: "Yes, assisted stretching is part of most sports massage sessions." },
-      { q: "Can I book after an evening gym session?", a: "Yes. We're open until 11pm (subject to availability), so message us on WhatsApp to reserve an evening slot." },
+      { q: "Can I book after an evening gym session?", a: "Yes. We're open until 3am (subject to availability), so message us on WhatsApp to reserve an evening slot." },
     ],
     related: ["deep-tissue-massage", "thai-massage", "cupping-therapy"],
     blog: ["massage-for-back-pain-desk-workers", "how-often-should-you-get-a-massage"],

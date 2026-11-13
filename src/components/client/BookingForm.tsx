@@ -115,7 +115,7 @@ export function BookingForm({ services, durations, whatsapp, brand, tel }: Props
       </div>
       <div>
         <label htmlFor="bf-time" className={label}>Preferred time *</label>
-        <input id="bf-time" name="time" type="time" min="11:00" max="22:00" step={900} className={field} {...aria("time")} />
+        <input id="bf-time" name="time" type="time" step={900} className={field} {...aria("time")} />
         {err("time")}
       </div>
       <div className="sm:col-span-2">

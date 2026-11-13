@@ -436,7 +436,7 @@ export const POSTS_A: BlogPost[] = [
       {
         h2: "Make it a routine",
         body: [
-          "The biggest difference comes from consistency, not intensity. A short, regular massage, a better desk setup and a few minutes of stretching each day add up. If you work in Bahria Town, DHA or Islamabad, our Phase 7 spa is easy to reach after work, and we're open until 11pm.",
+          "The biggest difference comes from consistency, not intensity. A short, regular massage, a better desk setup and a few minutes of stretching each day add up. If you work in Bahria Town, DHA or Islamabad, our Phase 7 spa is easy to reach after work, and we're open until 3am.",
         ],
       },
     ],

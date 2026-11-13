@@ -66,7 +66,7 @@ export const PACKAGES: SpaPackage[] = [
     name: "Weekday Happy Hours",
     tagline: "Quieter weekday slots",
     minutes: 60,
-    includes: ["Any 60-min treatment", "Monday–Thursday, 11am–3pm"],
+    includes: ["Any 60-min treatment", "Monday–Thursday, 2pm–6pm"],
     price: H * 2,
     active: false, // TODO(owner): enable only if a weekday offer genuinely exists, and set originalPrice
     bestFor: "Flexible schedules",

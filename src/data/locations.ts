@@ -5,7 +5,7 @@ import { SITE } from "@/config/site";
 
 const P30 = pkr(STANDARD_RATES[30]);
 const P60 = pkr(STANDARD_RATES[60]);
-const HOURS = "11:00 am to 11:00 pm, seven days a week"; // TODO(owner): keep in sync with SITE.hours
+const HOURS = "2:00 pm to 3:00 am, seven days a week"; // TODO(owner): keep in sync with SITE.hours
 
 /**
  * TODO(owner): verify EVERY route, landmark and travel time below against the real spa location.
@@ -28,7 +28,7 @@ export const LOCATIONS: LocationPage[] = [
     intro: [
       `${SITE.name} is located in Bahria Town Phase 7, Rawalpindi, near KFC. KFC is one of the easiest landmarks in Phase 7 to find, which makes us easy to reach from anywhere in Bahria Town, DHA Phase 2 and the Islamabad Expressway. Square Commercial and Spring North are just a few minutes away.`,
       "Phase 7 is one of the busiest parts of Bahria Town. Its offices, restaurants, apartments and shops are full from morning to late evening, which is exactly why a quiet hour matters here. Behind our door the noise drops away. You get soft lighting, fresh linen, warm oil and a trained therapist who listens before they begin.",
-      "Many guests combine a visit with dinner or errands nearby. They book a 30-minute neck and shoulder reset after work, a foot massage after shopping in Square Commercial, or a full hour of hot stone therapy on the weekend. We're open until 11pm, so evening slots are easy.",
+      "Many guests combine a visit with dinner or errands nearby. They book a 30-minute neck and shoulder reset after work, a foot massage after shopping in Square Commercial, or a full hour of hot stone therapy on the weekend. We're open until 3am, so evening slots are easy.",
     ],
     directions: [
       {
@@ -61,7 +61,7 @@ export const LOCATIONS: LocationPage[] = [
         "**Easy to find:** right near KFC, a landmark everyone in Bahria knows.",
         "**Private rooms, not curtained cubicles:** every treatment takes place behind a closed door with fresh linen.",
         "**Transparent pricing:** " + `${P30} for 30 minutes and ${P60} for 60 minutes, published openly on our [price list](/pricing).`,
-        "**Open late:** until 11pm, perfect after work in Phase 7's offices.",
+        "**Open late:** until 3am, perfect after work in Phase 7's offices.",
         "**Strictly professional:** therapeutic treatments only, under a clear conduct policy.",
       ],
     },
@@ -79,7 +79,7 @@ export const LOCATIONS: LocationPage[] = [
       { q: "Is there a massage center near KFC Bahria Town Phase 7?", a: `Yes, ${SITE.name} is located near KFC in Phase 7. Look for KFC and message us when you arrive.` },
       { q: "Is there parking near your Phase 7 spa?", a: "Yes, parking is available around the commercial block near KFC. Evenings can be busy, so allow a couple of extra minutes." },
       { q: "What are your opening hours?", a: `We are open ${HOURS}. Last bookings are usually 60 minutes before closing.` },
-      { q: "Is your Phase 7 spa open now?", a: "Most days, yes. We're open from 11am to 11pm. Send a WhatsApp message to check today's free slots in real time." },
+      { q: "Is your Phase 7 spa open now?", a: "Most days, yes. We're open from 2pm to 3am. Send a WhatsApp message to check today's free slots in real time." },
       { q: "How much does a massage cost in Bahria Town Phase 7?", a: `Our standard rate is ${P30} for 30 minutes and ${P60} for 60 minutes, for any treatment.` },
       { q: "How far are you from Square Commercial?", a: "Just a few minutes by car. Many guests walk over after shopping or dinner." },
       { q: "Do you have private rooms?", a: "Yes. All treatments take place in private rooms with a closed door, fresh linens and soft lighting." },
@@ -131,7 +131,7 @@ export const LOCATIONS: LocationPage[] = [
         "**Trust:** a professional, therapeutic spa with a clear conduct policy.",
         "**Close by:** just across in Phase 7, so there's no long drive.",
         "**Affordable, honest prices:** " + `${P30} for 30 minutes and ${P60} for 60 minutes. See the full [price list](/pricing).`,
-        "**Flexible timing:** open 11am to 11pm, seven days a week.",
+        "**Flexible timing:** open 2pm to 3am, seven days a week.",
       ],
     },
     extra: {
@@ -149,7 +149,7 @@ export const LOCATIONS: LocationPage[] = [
       { q: "What is the price of a massage for Phase 8 residents?", a: `${P30} for 30 minutes and ${P60} for 60 minutes, for any treatment.` },
       { q: "Which treatment is best for a first visit?", a: "Swedish massage is the gentlest introduction. Full body massage is a great all-rounder." },
       { q: "Can I book for my parents?", a: "Yes. Message us their preferred time, and we can adapt pressure and positioning for older guests." },
-      { q: "Is the spa open on weekends?", a: "Yes, we're open seven days a week from 11am to 11pm." },
+      { q: "Is the spa open on weekends?", a: "Yes, we're open seven days a week from 2pm to 3am." },
       { q: "Do you offer packages?", a: "Yes. See our packages page for combinations like the Signature Ritual and Ultimate Noir." },
       { q: "Is parking available?", a: "Yes, parking is available near KFC, Phase 7." },
       { q: "How do I book?", a: "Tap the WhatsApp button, send your preferred time, and we'll confirm quickly." },
@@ -203,7 +203,7 @@ export const LOCATIONS: LocationPage[] = [
       h2: "Why Phase 4 guests make the short trip",
       body: [
         "**A real spa, not a side room:** dedicated, private treatment rooms built for massage.",
-        "**Late hours:** open until 11pm, perfect after work at Civic Center.",
+        "**Late hours:** open until 3am, perfect after work at Civic Center.",
         "**Simple pricing:** " + `${P30} for 30 minutes and ${P60} for 60 minutes, for every treatment.`,
         "**Quick WhatsApp booking:** get a confirmed slot before you leave the office.",
       ],
@@ -219,7 +219,7 @@ export const LOCATIONS: LocationPage[] = [
     faqs: [
       { q: "Is there a massage center near Civic Center, Bahria Town Phase 4?", a: "Our spa is in Phase 7, near KFC, about 10–15 minutes from Civic Center. Many Phase 4 residents prefer our private rooms and transparent pricing." },
       { q: "How long does it take from Civic Center to your spa?", a: "Usually 10–15 minutes by car, depending on boulevard traffic." },
-      { q: "Do you offer late-evening massage for Phase 4 residents?", a: "We're open until 11pm daily. Message us to book an evening slot after work." },
+      { q: "Do you offer late-evening massage for Phase 4 residents?", a: "We're open until 3am daily. Message us to book an evening slot after work." },
       { q: "How much is a massage near Bahria Phase 4?", a: `${P30} for 30 minutes and ${P60} for 60 minutes.` },
       { q: "Can I book a quick after-work massage?", a: "Yes. A 30-minute back, neck and shoulder massage is perfect after a day at Civic Center." },
       { q: "Is your spa hygienic?", a: "Yes. Fresh linen for every guest, sanitised tools, clean rooms and strict hygiene standards." },
@@ -355,7 +355,7 @@ export const LOCATIONS: LocationPage[] = [
         "**Closer than central Islamabad:** skip the Expressway and the sector traffic.",
         "**High standards:** private rooms, fresh linen and trained therapists.",
         "**Honest pricing:** " + `${P30} for 30 minutes and ${P60} for 60 minutes.`,
-        "**Open late:** until 11pm, so you can book after work or after dinner.",
+        "**Open late:** until 3am, so you can book after work or after dinner.",
       ],
     },
     extra: {
@@ -372,7 +372,7 @@ export const LOCATIONS: LocationPage[] = [
       { q: "Do you offer Thai massage near DHA?", a: `Yes. Thai massage is ${P60} for 60 minutes at our Bahria Town Phase 7 spa.` },
       { q: "What's the price of a massage near DHA Islamabad?", a: `${P30} for 30 minutes and ${P60} for 60 minutes, for any treatment.` },
       { q: "Is the spa suitable for professionals and families?", a: "Yes. We are a strictly professional, therapeutic spa trusted by families across DHA and Bahria Town." },
-      { q: "Can I book an evening massage after work?", a: "Yes, we're open until 11pm. Message us on WhatsApp to reserve a slot." },
+      { q: "Can I book an evening massage after work?", a: "Yes, we're open until 3am. Message us on WhatsApp to reserve a slot." },
       { q: "Do you offer home massage in DHA?", a: SITE.features.homeService ? "Yes, in selected areas. Ask on WhatsApp." : "Treatments are currently in-spa only, so we can guarantee hygiene and privacy." },
       { q: "Is parking easy?", a: "Yes, parking is available near KFC, Phase 7." },
       { q: "Do you do facials for DHA residents?", a: "Yes. Facials and body scrubs are available alongside massage." },
@@ -446,7 +446,7 @@ export const LOCATIONS: LocationPage[] = [
       { q: "How much does a massage cost in Rawalpindi?", a: `At our spa, every treatment is ${P30} for 30 minutes and ${P60} for 60 minutes.` },
       { q: "Is your massage center in Rawalpindi hygienic?", a: "Yes. Fresh linen for every guest, sanitised tools and rooms cleaned between sessions." },
       { q: "Where are you located in Rawalpindi?", a: "Bahria Town Phase 7, near KFC, Rawalpindi. We share the exact pin on WhatsApp." },
-      { q: "Are you open 24 hours?", a: SITE.features.open24h ? "Yes, we're open 24 hours." : "No. We're open 11am to 11pm daily, and late-evening slots are available." },
+      { q: "Are you open 24 hours?", a: SITE.features.open24h ? "Yes, we're open 24 hours." : "No. We're open 2pm to 3am daily, and late-evening slots are available." },
       { q: "Do you offer cupping therapy in Rawalpindi?", a: "Yes, dry cupping only, with single-use or sterilised cups." },
       { q: "Is this a professional spa?", a: "Yes. We offer strictly therapeutic, professional treatments only." },
       { q: "Can I book a massage today in Rawalpindi?", a: "Often, yes. Message us on WhatsApp for same-day availability." },
@@ -522,7 +522,7 @@ export const LOCATIONS: LocationPage[] = [
       { q: "What's the price of a massage near Islamabad?", a: `${P30} for 30 minutes and ${P60} for 60 minutes, for any treatment.` },
       { q: "Which massage is best after a long work week?", a: "Deep tissue for stiffness, aromatherapy for stress, or a full body massage for both." },
       { q: "Is the spa professional?", a: "Yes. We offer strictly therapeutic, professional treatments in private rooms." },
-      { q: "Can I book late in the evening?", a: "Yes, we're open until 11pm. Message us on WhatsApp to check availability." },
+      { q: "Can I book late in the evening?", a: "Yes, we're open until 3am. Message us on WhatsApp to check availability." },
       { q: "Do you offer couples massage?", a: SITE.features.vipRoom ? "Yes, in our VIP suite. Ask for availability." : "We can arrange back-to-back or parallel bookings in separate rooms. Ask on WhatsApp." },
       { q: "Is parking available?", a: "Yes, parking is available near KFC, Phase 7." },
       { q: "Do you do facials?", a: "Yes: cleansing, hydrating and glow facials in a calm spa setting." },
@@ -537,7 +537,7 @@ export const LOCATIONS: LocationPage[] = [
     h1: "Spa Near Islamabad Expressway & GT Road",
     title: "Spa Near Islamabad Expressway | Bahria Town Massage",
     description:
-      "Easy access from Islamabad Expressway and GT Road. Relax at our massage center in Bahria Town Phase 7, near KFC. Open daily till 11pm, book on WhatsApp.",
+      "Easy access from Islamabad Expressway and GT Road. Relax at our massage center in Bahria Town Phase 7, near KFC. Open daily till 3am. Book on WhatsApp.",
     primaryKeyword: "spa near Expressway",
     keywords: ["massage near GT Road", "spa near Islamabad Expressway", "massage on the way Rawalpindi", "massage center Expressway"],
     eyebrow: "EXPRESSWAY · GT ROAD",
@@ -579,7 +579,7 @@ export const LOCATIONS: LocationPage[] = [
         "**Easy access:** a short turn off the Expressway or GT Road, with no city-centre traffic.",
         "**Focused treatments:** for backs, necks and legs that have been sitting too long.",
         "**Quick sessions:** a 30-minute reset for " + `${P30}.`,
-        "**Open late:** until 11pm for after-work and evening drives.",
+        "**Open late:** until 3am for after-work and evening drives.",
       ],
     },
     extra: {
@@ -595,7 +595,7 @@ export const LOCATIONS: LocationPage[] = [
       { q: "Can I stop for a quick massage on a long drive?", a: `Yes. A 30-minute back, neck and shoulder massage (${P30}) is a perfect break.` },
       { q: "Is there parking for travellers?", a: "Yes, parking is available near KFC, Bahria Town Phase 7." },
       { q: "Which massage is best after a long drive?", a: "Back, neck & shoulder massage for upper-body stiffness, foot reflexology for heavy legs, or deep tissue for overall tension." },
-      { q: "Are you open late?", a: "Yes, until 11pm daily. Message us to reserve an evening slot." },
+      { q: "Are you open late?", a: "Yes, until 3am daily. Message us to reserve an evening slot." },
       { q: "Can I book while driving?", a: "Please don't text and drive! Ask a passenger to message us, or call when you've stopped safely." },
       { q: "How much is a massage near the Expressway?", a: `${P30} for 30 minutes and ${P60} for 60 minutes.` },
       { q: "Is the spa professional?", a: "Yes. Strictly therapeutic treatments in private rooms by trained therapists." },

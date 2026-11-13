@@ -4,7 +4,7 @@ const ITEMS: { icon: IconName; title: string; text: string }[] = [
   { icon: "shield", title: "Certified therapists", text: "Trained, professional, respectful" },
   { icon: "droplet", title: "Hygienic fresh linens", text: "Fresh for every single guest" },
   { icon: "door", title: "Private rooms", text: "Closed-door, quiet treatment rooms" },
-  { icon: "calendar", title: "Open 7 days", text: "11am – 11pm, late slots available" },
+  { icon: "calendar", title: "Open 7 days", text: "2pm – 3am, late-night slots" },
 ];
 
 export function TrustStrip() {

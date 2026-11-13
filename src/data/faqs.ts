@@ -5,7 +5,7 @@ import { STANDARD_RATES, pkr } from "./pricing";
 const P30 = pkr(STANDARD_RATES[30]);
 const P60 = pkr(STANDARD_RATES[60]);
 const F = SITE.features;
-const HOURS = "11:00 am to 11:00 pm, seven days a week"; // TODO(owner): keep in sync with SITE.hours
+const HOURS = "2:00 pm to 3:00 am, seven days a week"; // TODO(owner): keep in sync with SITE.hours
 
 const shower = F.showers
   ? "Yes, shower facilities are available at our Bahria Town spa. Please mention it when booking so we can have fresh towels ready."
@@ -187,7 +187,7 @@ export const CONTACT_FAQS: Faq[] = [
   { q: "Where is your spa located?", a: "Near KFC, Bahria Town Phase 7, Rawalpindi. We'll send the exact pin on WhatsApp." },
   { q: "What are your opening hours?", a: `${HOURS}.` },
   { q: "How quickly do you reply on WhatsApp?", a: "Usually within minutes during opening hours." },
-  { q: "Is your massage center near KFC Phase 7 open now?", a: "We're open daily from 11am to 11pm. Message us to check live availability." },
+  { q: "Is your massage center near KFC Phase 7 open now?", a: "We're open daily from 2pm to 3am. Message us to check live availability." },
   { q: "How do I get directions?", a: "Tap 'Directions' to open Google Maps, or ask on WhatsApp for the pin." },
   { q: "Is parking available?", a: "Yes, near our spa by KFC, Bahria Town Phase 7." },
   { q: "Are you on Facebook?", a: "Yes. Follow us on Facebook for news and genuine offers." },
@@ -206,7 +206,7 @@ export const BOOK_FAQS: Faq[] = [
   { q: "What if I'm running late?", a: "Let us know on WhatsApp. Late arrivals may have a shorter session so the next guest isn't delayed." },
   { q: "Is my information kept private?", a: "Yes. We only use your details to manage your booking. See our privacy policy." },
   { q: "Can I book by phone instead?", a: "Of course. Call 0340 1222270 during opening hours." },
-  { q: "Do you accept bookings for late evening?", a: "Yes, until 11pm, subject to availability." },
+  { q: "Do you accept bookings for late evening?", a: "Yes, until 3am, subject to availability." },
 ];
 
 export const GIFT_FAQS: Faq[] = [

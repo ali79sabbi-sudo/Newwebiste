@@ -30,14 +30,14 @@ export const SITE = {
   googleMapsEmbed:
     "https://www.google.com/maps?q=KFC+Bahria+Town+Phase+7+Rawalpindi&output=embed", // TODO(owner): replace with GBP embed src
   googleReviewUrl: "", // TODO(owner): GBP "Ask for reviews" link (https://g.page/r/.../review)
-  hours: [{ days: "Mo-Su", opens: "11:00", closes: "23:00" }], // TODO(owner): confirm opening hours
-  hoursDisplay: "Open 7 days · 11:00 am – 11:00 pm", // TODO(owner): keep in sync with `hours`
+  hours: [{ days: "Mo-Su", opens: "14:00", closes: "03:00" }], // 2 pm to 3 am (closes after midnight)
+  hoursDisplay: "Open 7 days · 2:00 pm – 3:00 am", // keep in sync with `hours`
   priceRange: "PKR 3,000 – 6,000",
   languages: ["English", "Urdu"],
   therapistPolicy:
     "All treatments are delivered by trained, certified therapists under a strict professional-conduct policy.", // TODO(owner): describe therapist training and gender policy
   foundedYear: "", // TODO(owner): e.g. "2024", which unlocks "years of experience" copy
-  announcement: "Near KFC, Bahria Town Phase 7 · Open 11am–11pm · Same-day bookings on WhatsApp", // TODO(owner): only claim same-day if true
+  announcement: "Near KFC, Bahria Town Phase 7 · Open 2pm–3am · Same-day bookings on WhatsApp", // TODO(owner): only claim same-day if true
   whatsappTooltip: "Chat with us, usually replies in minutes",
 
   /** Feature flags drive honest FAQ answers. Set them truthfully. */

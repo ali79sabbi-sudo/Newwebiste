@@ -171,7 +171,7 @@ export const SERVICES_B: Service[] = [
       { q: "What should I wear?", a: "You undress to your comfort level and lie under fresh linen. Disposable undergarments are available, and you are never uncovered beyond the area being worked on." },
       { q: "Do you offer full body massage near me in Bahria Town?", a: "Yes. We're in Bahria Town Phase 7, near KFC, and a short drive from Phases 1–8 and DHA Islamabad." },
       { q: "Is full body massage good after travel?", a: "Very. Long drives or flights leave the back and legs stiff, and a full body massage helps you feel human again." },
-      { q: "Can I book a full body massage late in the evening?", a: "We are open until 11pm, subject to availability. Send us a WhatsApp message to check evening slots." },
+      { q: "Can I book a full body massage late in the evening?", a: "We are open until 3am, subject to availability. Send us a WhatsApp message to check evening slots." },
       { q: "Can I combine full body massage with a facial?", a: "Yes. Book back-to-back sessions, or see our packages for combinations." },
       { q: "Is oil used in a full body massage?", a: "Yes, a light skin-friendly oil. Unscented oil is available on request." },
       { q: "Do I need to book in advance?", a: "Same-day bookings are often possible, but evenings and weekends fill quickly, so a few hours' notice on WhatsApp helps." },
