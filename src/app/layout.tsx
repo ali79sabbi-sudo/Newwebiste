@@ -65,6 +65,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* Enables reveal animations only when JS runs, so content is never hidden without JS */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());",
+          }}
+        />
+        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KCML36XH" />
       </head>
       <body>
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-gold-400 focus:px-5 focus:py-3 focus:text-ink-950">
